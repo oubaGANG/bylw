@@ -1,0 +1,11 @@
+
+#head{height: 70px;margin-top:5px;position: relative;background: url("../img/head.png")repeat-x;width:100%;}
+#head>img{margin-left: 20px;margin-top:5px;}
+#head h3{position: absolute;top: 10px;left: 100px;color: #333}
+#head h3.wz{letter-spacing:6px;font-size: 25px;color: #333;}
+#head h3.py{font-size: 14px;left: 98px;top: 40px;letter-spacing: 1px}
+#log {
+    float:right;
+    padding:30px 15px 0 0;
+    color:#fff;
+}

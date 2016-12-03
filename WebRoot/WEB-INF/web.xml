@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>servlet.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>xtServlet</servlet-name>
+    <servlet-class>servlet.xtServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>xzServlet</servlet-name>
+    <servlet-class>servlet.xzServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>xuanServlet</servlet-name>
+    <servlet-class>servlet.xuanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>xsglServlet</servlet-name>
+    <servlet-class>servlet.xsglServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>xsczServlet</servlet-name>
+    <servlet-class>servlet.xsczServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ckServlet</servlet-name>
+    <servlet-class>servlet.ckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpbgServlet</servlet-name>
+    <servlet-class>servlet.UpbgServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>UplwServlet</servlet-name>
+    <servlet-class>servlet.UplwServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>UpyqServlet</servlet-name>
+    <servlet-class>servlet.UpyqServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>xzbgServlet</servlet-name>
+    <servlet-class>servlet.xzbgServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>xzlwServlet</servlet-name>
+    <servlet-class>servlet.xzlwServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>xzyqServlet</servlet-name>
+    <servlet-class>servlet.xzyqServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ckbgServlet</servlet-name>
+    <servlet-class>servlet.ckbgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>czbgServlet</servlet-name>
+    <servlet-class>servlet.czbgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cklwServlet</servlet-name>
+    <servlet-class>servlet.cklwServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>czlwServlet</servlet-name>
+    <servlet-class>servlet.czlwServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dsczServlet</servlet-name>
+    <servlet-class>servlet.dsczServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dsglServlet</servlet-name>
+    <servlet-class>servlet.dsglServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>outServlet</servlet-name>
+    <servlet-class>servlet.outServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>xtczServlet</servlet-name>
+    <servlet-class>servlet.xtczServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cjckServlet</servlet-name>
+    <servlet-class>servlet.cjckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>endTimeServlet</servlet-name>
+    <servlet-class>servlet.endTimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fplwServlet</servlet-name>
+    <servlet-class>servlet.fplwServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>xtServlet</servlet-name>
+    <url-pattern>/xtServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>xzServlet</servlet-name>
+    <url-pattern>/xzServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>xuanServlet</servlet-name>
+    <url-pattern>/xuanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>xsglServlet</servlet-name>
+    <url-pattern>/xsglServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>xsczServlet</servlet-name>
+    <url-pattern>/xsczServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ckServlet</servlet-name>
+    <url-pattern>/ckServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>UpbgServlet</servlet-name>
+    <url-pattern>/UpbgServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>UplwServlet</servlet-name>
+    <url-pattern>/UplwServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>UpyqServlet</servlet-name>
+    <url-pattern>/UpyqServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>xzbgServlet</servlet-name>
+    <url-pattern>/xzbgServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>xzlwServlet</servlet-name>
+    <url-pattern>/xzlwServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>xzyqServlet</servlet-name>
+    <url-pattern>/xzyqServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ckbgServlet</servlet-name>
+    <url-pattern>/ckbgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>czbgServlet</servlet-name>
+    <url-pattern>/czbgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cklwServlet</servlet-name>
+    <url-pattern>/cklwServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>czlwServlet</servlet-name>
+    <url-pattern>/czlwServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dsczServlet</servlet-name>
+    <url-pattern>/dsczServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dsglServlet</servlet-name>
+    <url-pattern>/dsglServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>outServlet</servlet-name>
+    <url-pattern>/outServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>xtczServlet</servlet-name>
+    <url-pattern>/xtczServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cjckServlet</servlet-name>
+    <url-pattern>/cjckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>endTimeServlet</servlet-name>
+    <url-pattern>/endTimeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fplwServlet</servlet-name>
+    <url-pattern>/fplwServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>

@@ -1,0 +1,17 @@
+*{margin: 0;padding: 0}
+body{font-size: 14px;color: #333;background-color: #f2ebff}
+a {  color:#fff;  text-decoration:none;  }
+a:hover {  text-decoration:underline;  }
+ul li{list-style: none}
+
+#nav{margin-top: 30px}
+#nav li{text-align: center;padding: 10px 0;width: 80px;margin-left: 10px;cursor: pointer}
+#nav li:hover{background-color: #eafff4;color: #008aff}
+#nav li h3{display: block;width: 30px;height:30px;margin:5px auto;}
+#nav li.t1 h3{background:url(../img/grzx.png);}
+#nav li.t2 h3{background:url(../img/ctyq.png);}
+#nav li.t3 h3{background:url(../img/sclw.png);}
+#nav li.t4 h3{background:url(../img/ck.png);}
+#nav li.t5 h3{background:url(../img/ckwj.png);}
+#nav li span{display: none}
+.t1{border-radius: 50px;background-color: orange;height: 60px;color: #fff;margin-bottom: 15px}

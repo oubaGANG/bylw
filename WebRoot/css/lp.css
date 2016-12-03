@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner {
+    clear: both;
+    height:200px;
+    margin:2px auto;
+    position:relative;
+}
+#banner img {
+    width: 100%;
+    height: 200px;
+    display:block;
+    float:left;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1
+}
+#banner ul {
+    position:absolute;
+    top:168px;
+    left:550px;
+    z-index:4;
+}
+#banner ul li {
+   list-style: none;
+    float:left;
+    padding:0 5px;
+    font-size:30px;
+    color:#999;
+    cursor:pointer;
+}
+#banner span {
+    width:100%;
+    height:25px;
+    position:absolute;
+    top:175px;
+    left:0;
+    background:#333;
+    opacity:0.3;
+    filter:alpha(opacity=30);
+    z-index:3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

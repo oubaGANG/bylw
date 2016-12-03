@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="bylw"
+  id="myeclipse.1462709457332"
+  context-root="/bylw"
+  j2ee-spec="5.0"
+  archive="bylw.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
